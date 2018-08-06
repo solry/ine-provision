@@ -2,7 +2,7 @@
 Provision of UNL devices for INE CCIE R&S workbook configs with one command
 
 Prerequisite:
-1) UNL host accessible from host where script is launched
+1) UNL/EVE-NG host accessible from host where script is launched
 2) LAB uses Cisco IOL L3 images
 3) Configs are compatible with IOL, there is in configs you have Eth0/* instead Gi0/* (it easy to do with all files replacement)
 4) nparallel module (you can find it in my profile on github) 
