@@ -17,7 +17,7 @@ Open ine.py and insert values from your own environment for next constants:
 
 Usage:
 
-    python ine.py
+    >> python ine.py
     result: prints list of sections and related configs
     EIGRP
          eigrpv6 basic
@@ -32,5 +32,5 @@ Usage:
          
     
          
-    python ine.py initial ospf
+    >> python ine.py initial ospf
     result: reboot to clear config and configure all routers according to files
