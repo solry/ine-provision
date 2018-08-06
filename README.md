@@ -1,5 +1,5 @@
 # ine-provision
-Provision of UNL devices for INE CCIE R&S workbook configs with one command
+Provision of UNL/EVE-NG devices for INE CCIE R&S workbook configs with one command
 
 Prerequisite:
 1) UNL/EVE-NG host accessible from host where script is launched
