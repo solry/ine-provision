@@ -8,12 +8,22 @@ Prerequisite:
 4) nparallel module (you can find it in my profile on github) 
 
 Preconfiguration:
-Open ine.py and insert values from your own environment for next constants:
+Open ine.py and insert values from your own environment for next variables:
 
-    UNL_IP
-    PORT_TO_R
-    CONFIG_FODLER
+    UNL_IP = '10.0.0.1'
 
+    PORT_TO_R = {'R1': '33281',
+                 'R2': '33282',
+                 'R3': '33283',
+                 'R4': '33284',
+                 'R5': '33285',
+                 'R6': '33286',
+                 'R7': '33287',
+                 'R8': '33288',
+                 'R9': '33289',
+                 'R10': '33290'}
+
+    CONFIG_FODLER = '/root/dev/files/ine_wb_configs/'
 
 Usage:
 
