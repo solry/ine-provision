@@ -30,7 +30,6 @@ Usage:
          initial ospf
          ...(output omitted)
          
-    
          
     >> python ine.py initial ospf
-    result: reboot to clear config and configure all routers according to files
+    result: reboot routers to clear config and configure all routers according to files
