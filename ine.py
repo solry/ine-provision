@@ -99,7 +99,7 @@ class UnlRouter:
             self.conn.send_command('\n\r', auto_find_prompt=False,
                                    expect_string='.*Save?.*|.*reload.*', delay_factor=0.25, max_loops = 3)
         except OSError:
-            logging.debug(f'{self.name} gone to reboot')
+            logging.info(f'{self.name} gone to reboot')
 
     def configure(self, section):
         self.verify_connect()
