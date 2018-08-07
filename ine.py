@@ -109,7 +109,7 @@ class UnlRouter:
            for line in f:
                self.conn.send_command(line, delay_factor=0.05, strip_prompt=False,
                                       expect_string = '#|>', auto_find_prompt=False)
-        logging.info(f'Conf{self.name}')
+        logging.info(f'{self.name} configured')
     def __repr__(self):
         return f'{self.name} {self.unl_ip} {self.port}'
 
